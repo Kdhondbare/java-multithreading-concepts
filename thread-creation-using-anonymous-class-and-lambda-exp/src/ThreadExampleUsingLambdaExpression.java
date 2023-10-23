@@ -1,5 +1,6 @@
 public class ThreadExampleUsingLambdaExpression {
     public static void main(String[] args) {
+
         Runnable lambdaTask = () -> {
             System.out.println("Say hello from " + Thread.currentThread().getName() + " and state is : " + Thread.currentThread().getState());
         };
